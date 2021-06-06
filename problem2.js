@@ -17,7 +17,7 @@ const arrayTwo = [1, 2, [3, 4]];
 const arrayThree = [1, [[2,[[3]]]], [4, 5, [6]]];
 
 const resultOne = flatten(arrayOne, 1);
-const resultTwo = flatten(arrayOne, 1);
+const resultTwo = flatten(arrayTwo, 1);
 const resultThree = flatten(arrayThree, 4);
 
 console.log(resultOne);  // Should equal: [1, 2, 3, 4, [5, 6]]
