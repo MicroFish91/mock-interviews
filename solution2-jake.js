@@ -72,24 +72,24 @@
 
       return array;
     }
+                                                                                          /*
+  Version 2:                                                                              */
 
-//Version 2: 
+    function flatten2(array, depth = 1){
+      if(depth > 0){
 
-  function flatten2(array, depth = 1){
-    if(depth > 0){
+        return array.reduce((acc, val) => {
+          if(Array.isArray(val)) {
+            return acc.concat(flatten2(val, depth - 1));
+          } else {
+            return acc.concat(val);
+          }
+        }, []);
 
-      return array.reduce((acc, val) => {
-        if(Array.isArray(val)) {
-          return acc.concat(flatten2(val, depth - 1));
-        } else {
-          return acc.concat(val);
-        }
-      }, []);
-
-    } else {
-      return array.slice();
+      } else {
+        return array.slice();
+      }
     }
-  }
 
 
 
