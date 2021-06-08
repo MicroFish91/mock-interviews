@@ -48,7 +48,50 @@
         Step 4: we need a way to not drill all the way down, we need to stop
         the recursion when depth is = 0   => full solution with if blocks
 
-*/
+
+  -----------------------------------------------------------------------------------------
+
+  Raw Solution: 
+
+  Version 1:                                                                             */
+    
+    function flatten(array, depth = 1){
+      let newArray = [];
+
+      for(let depthCounter = 0; depthCounter < depth; depthCounter++){
+        for(let index = 0; index < array.length; index++){
+          if(Array.isArray(array[index])) {
+            newArray = newArray.concat(array[index]);
+          } else {
+            newArray.push(array[index]);
+          }
+        }
+        array = newArray;
+        newArray = [];
+      }
+
+      return array;
+    }
+
+//Version 2: 
+
+  function flatten2(array, depth = 1){
+    if(depth > 0){
+
+      return array.reduce((acc, val) => {
+        if(Array.isArray(val)) {
+          return acc.concat(flatten2(val, depth - 1));
+        } else {
+          return acc.concat(val);
+        }
+      }, []);
+
+    } else {
+      return array.slice();
+    }
+  }
+
+
 
 
 
