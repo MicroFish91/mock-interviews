@@ -1,0 +1,15 @@
+# High Level JS/CSS/HTML Interview
+- What are the 4 pillars of OOP? Can you explain them?
+- What is the difference between null vs. undefined?
+- What is the difference between const and let?
+- Why do we put JS scripts at the top vs. bottom of HTML?
+- What is the difference between == and ===?
+- What is passed by value vs. passed by reference?
+- What is the difference between display none and display invisible?
+- Get vs. Post? What is something a post has that a get doesn’t?
+- Explain inline, inline-block and block positioning?
+- CRUD operations in nodeJS?
+- What does REST API stand for?
+- Why would we want an async function?
+- What is hoisting?
+- What is closure?
