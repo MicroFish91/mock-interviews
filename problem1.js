@@ -7,10 +7,6 @@
 // Tact Coa
 // True (permutations: 'taco cat', 'atco cta')
 
-// Hint #1: Think about the structure of a palindrome - how many of each letter are required to make a palindrome?
-
-// Hint #2: A palindrome must consist of all even amounts of characters and at most 1 charater can have an odd count
-
 // Test Cases:
 
 // Test #1:
@@ -24,3 +20,7 @@
 // Test #3
 // paliPerm('gadsgass')
 // should return false
+
+// Hint #1: Think about the structure of a palindrome - how many of each letter are required to make a palindrome?
+
+// Hint #2: A palindrome must consist of all even amounts of characters and at most 1 charater can have an odd count

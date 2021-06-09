@@ -6,7 +6,7 @@ const paliPerm = (string) => {
   // looping throgh - ignoring spaces and updating hash table on each letter
   for (const letter of newString) {
     if (letter === ' ') {
-      null
+      continue
     } else if (letter in hash) {
       hash[letter] += 1;
     } else {
@@ -76,14 +76,40 @@ function paliPerm2(string) {
   return true
 }
 
+
+const paliPerm3 = (string) => {
+  // converting string to lowercase 
+  const newString = string.toLowerCase();
+  let oddCount = 0;
+  // setting up my hashtable
+  let hash = {};
+  // looping throgh - ignoring spaces and updating hash table on each letter
+  for (const letter of newString) {
+    if (letter === ' ') {
+      continue
+    } else if (letter in hash) {
+      hash[letter] += 1;
+    } else {
+      hash[letter] = 1;
+    }
+    if (hash[letter] % 2 !== 0) {
+      oddCount++;
+    } else {
+      oddCount--;
+    }
+  }
+  return oddCount <= 1;
+}
+
+
 // Test #1:
-console.log(paliPerm2('Tact Coa'))
+console.log(paliPerm('Tact Coa'))
 // should return true
 
 // Test #2:
-console.log(paliPerm2('eracrac'))
+console.log(paliPerm('eracrac'))
 // should return true
 
 // Test #3
-console.log(paliPerm2('gadsgass'))
+console.log(paliPerm('gadsgass'))
 // should return false
