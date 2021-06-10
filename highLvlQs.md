@@ -2,20 +2,20 @@
 - What are the 4 pillars of OOP? Can you explain them?
 - What is the difference between null and undefined?
 - What is the difference between var, let, and const?
-- Why do we put JS scripts at the top vs. bottom of HTML?
+- Where do we place JS Scripts in our HTML?
 - What is the difference between =, ==, and ===?
-- What is passed by value vs. passed by reference?
-- What is the difference between display none and display invisible?
+- What is passing by value vs. passing by reference?
+- What is the difference between display: none and display: invisible?
 - Get vs. Post? What is something a post has that a get doesn’t?
-- Explain inline, inline-block and block positioning?
+- Explain inline, inline-block, and block positioning?
 - CRUD operations in nodeJS?
 - What does REST API stand for?
+- How are we able to bundle useful code when events are thrown off asychronously?
+- What are promises and why are they useful?
 - Why would we want an async function?
 - What is hoisting?
 - What is closure?
 - What does it mean when people say "NodeJS is an event-driven non-blocking runtime environment"
-- How are we able to bundle useful code when events are thrown off asychronously?
-- What are promises and why are they useful?
 - What is middleware?
 - What is an ORM?
 - SQL vs NoSQL
