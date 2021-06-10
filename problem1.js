@@ -1,5 +1,5 @@
 // Palindrome Permutation checker
-// Given a string, write a function named paliPerm to check if it is a permutation of a palindrome. A palindrome is a word or phrase that is the same forwards and backwards. A permutation is a rearrangement of letters. The palindrome does not need to be limited to just dictionary words. You can ignore casing and non-letter characters.
+// Given a string, write a function named paliPerm to check if it is a permutation of a palindrome. A palindrome is a word or phrase that is the same forwards and backwards. A permutation represents any of several possible rearrangement of the letters. The palindrome does not need to be limited to just dictionary words. You can ignore casing and non-letter characters.
 
 // Meaning - can the string you've been given be rearranged to become a palindrome?
 
