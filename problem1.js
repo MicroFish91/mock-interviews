@@ -1,25 +1,20 @@
 // Palindrome Permutation checker
 // Given a string, write a function named paliPerm to check if it is a permutation of a palindrome. A palindrome is a word or phrase that is the same forwards and backwards. A permutation is a rearrangement of letters. The palindrome does not need to be limited to just dictionary words. You can ignore casing and non-letter characters.
 
-// Meaning, can the string you've been given be rearranged to become a palindrome?
+// Meaning - can the string you've been given be rearranged to become a palindrome?
 
 // Example:
 // Tact Coa
 // True (permutations: 'taco cat', 'atco cta')
 
+function paliPerm(word){
+  // Write your solution here
+}
+
 // Test Cases:
-
-// Test #1:
-// paliPerm('Tact Coa')
-// should return true
-
-// Test #2:
-// paliPerm('eracrac')
-// should return true
-
-// Test #3
-// paliPerm('gadsgass')
-// should return false
+console.log(paliPerm('Tact Coa'));  // Should return true
+console.log(paliPerm('eracrac'));  // Should return true
+console.log(paliPerm('gadsgass')); // Should return false
 
 // Hint #1: Think about the structure of a palindrome - how many of each letter are required to make a palindrome?
 

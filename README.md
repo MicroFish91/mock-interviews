@@ -16,7 +16,7 @@ as necessary. <br> <br>
 
 <br>
 
-## Problem 1 (Difficulty: Easy)
+## Problem 1
 Palindrome Permutation checker
 Given a string, write a function named paliPerm to check if it is a permutation of a palindrome. A palindrome is a word or phrase that is the same forwards and backwards. A permutation is a rearrangement of letters. The palindrome does not need to be limited to just dictionary words. You can ignore casing and non-letter characters.
 
@@ -44,7 +44,7 @@ Test #3
 paliPerm('gadsgass')
 should return false
 
-## Problem 2 (Difficulty: Medium/Hard)
+## Problem 2
 Given an array containing sub-array elements, write a function that will flatten the nested arrays by the given depth. <br> 
 The only in-built array functions you are allowed to use are isArray(), push(), pop(), shift(), unshift(), slice(), reduce(), and concat() <br>
 Please work through your solution in the provided "problem2.js" file.  Additional hints are provided there. <br> <br>
@@ -52,4 +52,26 @@ You will have 15 min to think over the problem before the TA's begin to go over 
 
 ** Bonus Exercise: Refactor the solution using recursion. **
 
-## Other Questions...
+## High Level JS/CSS/HTML Interview Topics
+- What are the 4 pillars of OOP? Can you explain them?
+- What is the difference between null and undefined?
+- What is the difference between var, let, and const?
+- Where do we place JS Scripts in our HTML?
+- What is the difference between =, ==, and ===?
+- What is passing by value vs. passing by reference?
+- What is the difference between display: none and display: invisible?
+- Get vs. Post? What is something a post has that a get doesn’t?
+- Explain inline, inline-block, and block positioning?
+- CRUD operations in nodeJS?
+- What does REST API stand for?
+- How are we able to bundle useful code when events are thrown off asychronously?
+- What are promises and why are they useful?
+- Why would we want an async function?
+- What is hoisting?
+- What is closure?
+- What does it mean when people say "NodeJS is an event-driven non-blocking runtime environment"
+- What is middleware?
+- What is an ORM?
+- SQL vs NoSQL
+- Describe the basic MVC architecture pattern
+- Desribe AJAX and how it works
