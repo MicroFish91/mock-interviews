@@ -7,7 +7,7 @@
 // Tact Coa
 // True (permutations: 'taco cat', 'atco cta')
 
-function paliPerm(word){
+function paliPerm(string){
   // Write your solution here
 }
 
